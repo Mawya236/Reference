@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.containar{
+    width: 50%;
+    height: 850px;
+    border: 4px solid black;
+    margin-left: 550px;
+    margin-top: 30px;
+}
+.head{
+    text-align: center;
+    height: 60px;
+    background-color: rgb(240, 238, 238);
+    padding: 10px;
+}
+.price img{
+    width: 250px;
+    height: 250px;
+}
+.price p{
+    opacity: 0.5;
+    font-size: 13px;
+}
+main{
+    font-size: 20px;
+    margin-top: 30px;
+}
+main p span{
+    color: red;
+}
+main a i{
+    font-size: 20px;
+}
+main a{
+    color: black;
+}
+.colors{
+    display: flex;
+    margin-top: 35px;
+}
+.colors .color1{
+    width: 30px;
+    height: 30px;
+    background-color: black;
+}
+.colors .color2{
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    margin-left: 20px;
+}
+.colors .color3{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    margin-left: 20px;
+}
+.colors .color4{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    margin-left: 20px;
+}
+.colors .color5{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    margin-left: 20px;
+}
+.colors .color6{
+    width: 30px;
+    height: 30px;
+    background-color: brown;
+    margin-left: 20px;
+}
+.details{
+    margin-top: 35px;
+}
+.details ul{
+    margin-left: 25px;
+    margin-top: 15px;
+    list-style-type: square;
+}
+footer{
+    text-align: center;
+    margin-top: 80px;
+    font-size: 20px;
+    border-top: 4px solid black;
+    padding-top: 20px;
+}
