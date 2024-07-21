@@ -3,23 +3,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    height: 100vh;
+}
 .sale{
     width:80px;
     color: white;
     background-color: red;
     text-align: center;
     padding: 6px;
-    position: relative;
-    top: 45px;
-    left: 520px;
+    position: absolute;
+    top: -15px;
+    left: -30px;
     z-index: 1;
 }
 .containar{
     width: 50%;
-    height: 850px;
+    min-height: 95%;
     border: 4px solid black;
     margin-left: 550px;
     margin-top: 30px;
+    position: relative;
     z-index: 0;
 }
 .head{

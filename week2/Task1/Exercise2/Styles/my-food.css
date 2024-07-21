@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    flex-wrap: wrap;
+}
+.gg-menu{
+    margin-top: 10px;
+}
+main{
+    display: flex; 
+    justify-content: center;
+    width: 100%;
+    height: 30%;
+    gap: 1%;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    /* margin: 50px 50px; */
+}
+ .Card{
+    /* margin: 50px 240px; */
+    width: 20%;
+    padding-left: 50px;
+    margin-bottom: 50px;
+ }
+.Card .card-top img{
+    width: 70%;
+    height: 5%;
+}
+.Card .card-bottom{
+    width: 80%;
+    padding: 10px 10px;
+}
+.Card .card-bottom p{
+    margin-top: 10px;
+    font-size: 13px;
+}
+.pagination {
+    /* display: inline-block; */
+    justify-content: center;
+    display: flex;
+    margin-bottom: 50px;
+  }
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+.pagination a.active {
+    background-color: black;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {
+    background-color: #ddd;
+}
+hr{
+    border: 1px solid rgb(218, 218, 218);
+    width: 80%;
+    margin-left: 150px;
+}
+.about{
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    
+}
+.about span{
+    font-size: 25px;
+}
+.about img{
+    margin-top: 30px;
+}
+.about h3{
+    margin-top: 30px;
+}
+.about p{
+    margin-top: 15px;
+    width: 70%;
+    margin-left: 230px;
+}
+footer{
+    margin-top: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.right{
+    width: 30%;
+}
+footer h3{
+    font-size: 30px;
+}
+.right p{
+    margin-top: 30px;
+}
+.right p a{
+    color: black;
+}
+.blog{
+    width: 30%;
+}
+.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.top img{
+    width: 15%;
+    margin-right: 10px;
+}
+.blog hr{
+    border: 1px solid rgb(218, 218, 218);
+    width: 100%;
+}
