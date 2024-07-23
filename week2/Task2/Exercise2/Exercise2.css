@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+}
+.container{
+    width: 95%;
+    height: 890px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: auto;
+    padding: 50px;
+    gap: 15px;
+    background-color: rgb(226, 225, 225);
+}
+.left-top{
+    grid-area: 1/1/2/3;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
+.mid-top{
+    grid-area: 1/3/2/4;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
+.right-top{
+    grid-area: 1/4/4/5;
+    background-color: black;
+    color: white;
+    border-bottom: 2px solid red;
+}
+.left-mid{
+    grid-area: 2/1/4/2;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
+.top-mid{
+    grid-area: 2/2/3/4;
+    border-bottom: 2px solid red;
+    background-color: black;
+    color: white;
+}
+.bottom-mid{
+    grid-area: 3/2/4/4;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
+.left-bottom{
+    grid-area: 4/1/5/2;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
+.mid1-bottom{
+    grid-area: 4/2/5/3;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
+.mid2-bottom{
+    grid-area: 4/3/5/4;
+    border-bottom: 2px solid red;
+    background-color: black;
+    color: white;
+}
+.right-bottom{
+    grid-area: 4/4/5/5;
+    border-bottom: 2px solid red;
+    background-color: white;
+}
