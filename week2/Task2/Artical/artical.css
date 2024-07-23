@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    max-height: 100vh;
+}
+.container{
+    width: 95%;
+    margin: auto;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    grid-template-rows: 120px 600px 0 50px;
+    gap: 30px;
+}
+header{
+    grid-area: 1/1/2/7;
+    border-bottom: 1px dotted gray;
+}
+h3{
+    color: rgb(161, 160, 160);
+}
+header p{
+    line-height: 3;
+}
+aside{
+    grid-area: 2/1/4/2;
+    background-color: rgb(233, 232, 232);
+    padding: 7px 35px;
+    line-height: 2;
+}
+main{
+    grid-area: 2/2/4/3;
+    line-height: 1.6;
+}
+main h1{
+    font-size: 60px;
+}
+footer{
+    grid-area: 4/1/5/7;
+    background-color: rgb(107, 107, 107);
+    color: white;
+    padding: 15px;
+}
