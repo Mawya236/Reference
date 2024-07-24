@@ -31,12 +31,9 @@ main{
     flex-wrap: wrap;
     text-align: center;
     gap: 2%;
-    /* margin: 50px 50px; */
 }
  .Card{
-    /* margin: 50px 240px; */
     width: 20%;
-    /* padding-left: 50px; */
     margin-bottom: 50px;
  }
 .Card .card-top img{
@@ -52,7 +49,6 @@ main{
     font-size: 16px;
 }
 .pagination {
-    /* display: inline-block; */
     justify-content: center;
     display: flex;
     margin-bottom: 50px;
@@ -75,7 +71,6 @@ main{
 hr{
     border: 1px solid rgb(218, 218, 218);
     width: 100%;
-    /* margin-left: 150px; */
 }
 .about{
     width: 100%;
