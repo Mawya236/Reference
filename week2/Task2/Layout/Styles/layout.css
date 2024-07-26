@@ -10,7 +10,6 @@ body{
     padding: 5px;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    /* grid-template-rows: 100px , 400px; */
     align-items: center;
 }
 .logo{
@@ -60,9 +59,7 @@ header{
     grid-area: 2/3/3/11;
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-    /* grid-template-rows: 190px , 500px; */
     padding-top: 50px;
-    /* gap: 5%; */
 }
 header h1{
     grid-area: 1/1/2/3;
@@ -79,7 +76,7 @@ header h4{
     font-weight: 600;
     line-height: 26.63px;
 }
-header .line{
+header .line1{
     grid-area: 3/1/4/2;
     width: 32px;
     height: 2px;
@@ -275,7 +272,6 @@ header .select4{
     font-family: "Playfair Display", serif;
     font-size: 36px;
     font-weight: 700;
-    /* margin-bottom: 50px; */
 }
 .rate{
     grid-area: 4/1/5/3;
@@ -455,4 +451,92 @@ header .select4{
     color: #FB8F1D;
     text-decoration: none;
     padding-top: 30px;
+}
+footer{
+    grid-area: 8/1/9/11;
+    background-color: #F9F9FB;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(8, 60px);
+}
+.footer-logo{
+    grid-area: 2/2/3/3;
+}
+.footer-p1{
+    grid-area: 3/2/4/4;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #848484;
+}
+.footer-p2{
+    grid-area: 5/2/6/4;
+    font-family: "Mulish", sans-serif;
+    font-size: 17px;
+    font-weight: 300;
+    line-height: 28px;
+    color: #848484;
+}
+.footer-h4-left{
+    grid-area: 2/5/3/6;
+    font-family: Mulish;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.footer-left{
+    grid-area: 3/5/6/6;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #848484;
+}
+.footer-h4-mid{
+    grid-area: 2/7/3/8;
+    font-family: "Mulish", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.footer-mid{
+    grid-area: 3/7/6/8;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #848484;
+}
+.footer-h4-right{
+    grid-area: 2/9/3/10;
+    font-family: "Mulish", sans-serif;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 60px;
+}
+.footer-right{
+    grid-area: 3/9/6/10;
+    font-family: "Mulish", sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 38px;
+    color: #848484;
+}
+footer .line2{
+    grid-area: 7/2/8/10;
+    height: 0.6px;
+    background: #C4C4C4;
+}
+.social{
+    grid-area: 7/4/9/8;
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-content: start;
+    gap: 25px;
+}
+.social .fa{
+    font-size: 25px;
 }
