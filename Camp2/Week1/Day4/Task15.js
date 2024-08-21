@@ -3,7 +3,7 @@ function remove(item,index){
     let arr = [];
     return item[index] !== " " ? arr.push(item[index]) : "Please Remove Spaces";
 }
-console.log(str.split(" ").map(remove).join(""));
+console.log(str.split(" ").filter(remove).join(""));
 
 // function remove(str){
 //     str.split(" ");
