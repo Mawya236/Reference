@@ -1,0 +1,1 @@
+console.log(parseFloat(5.5589).toFixed(2));

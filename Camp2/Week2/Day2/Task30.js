@@ -11,4 +11,4 @@ function rent(day){
     }
     return total;
 }
-console.log(rent(8) + "$")
+console.log(rent(8) + "$");
